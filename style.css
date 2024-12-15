@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+   
+    display: flex;
+    justify-content:flex-start;
+    align-content:center;
+    
+    gap: 15px;
+}
+img{
+    display: none;
+}
+.h2{
+  margin-top: 5px;
+    margin-bottom: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jokesContainer{
+    padding: 10px;
+    min-height: 400px;
+    width: 400px;
+    background-color: #E5D9F2;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+h2{
+    font-size: 20px;
+}
+.jokeType{
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+font-size: 18px;
+}
+button{
+    margin-top: 25px;
+    margin-left: 154px;
+    padding: 7px;
+    border: none;
+    background-color: #CDC1FF;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: monospace;
+    opacity: 0.5;
+    &:hover{
+        opacity: 1;
+        animation: btn 0.5s ease-out 1 forwards;    
+    }
+}
+@keyframes btn {
+    from{
+        opacity: 0.5;
+        background-color:#CDC1FF;
+        scale: 1;
+    }
+    to{
+opacity: 1;
+background-color: #A294F9;
+opacity: 0.5;
+scale: 1.1;
+    }
+}
+ol{
+    font-size: 16px;
+    list-style-type: 1;
+    margin-left: 10px;
+    list-style-position: inside;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 17px;
+}
+li{
+    margin-top: 5px;
+}
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jokesContainer">
+        <div class="nav">
+        <img src="hamburger.svg" alt="hamburger" class="ham">
+        <h2 class="h2">Random jokes to make your day</h2>
+        </div>
+    <div class="jokeType">
+      
+        <h2>Joke Genre:</h2>
+        <input type="radio" id="any" name="category" value="Any">
+        <label for="any">Any</label><br>
+    
+        <input type="radio" id="programming" name="category" value="Programming">
+        <label for="programming">Programming</label><br>
+    
+        <input type="radio" id="misc" name="category" value="Misc">
+        <label for="misc">Misc</label><br>
+    
+        <input type="radio" id="dark" name="category" value="Dark">
+        <label for="dark">Dark</label><br>
+    
+        <input type="radio" id="spooky" name="category" value="Spooky">
+        <label for="spooky">Spooky</label>
+        <input type="radio" id="pun" name="category" value="Pun">
+        <label for="pun">Pun</label>
+        
+    </div>
+    <button id="btn">Display Joke</button>
+    <div class="jokes">
+        <ol>
+        </ol>
+    </div>
+   
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
